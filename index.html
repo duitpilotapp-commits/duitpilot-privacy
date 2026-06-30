@@ -45,44 +45,44 @@
 <h1>Privacy Policy for DuitPilot</h1>
 <div class="effective-date">Effective Date: June 30, 2026</div>
 
-<h2>1. Introduction</h2>
-<p>This Privacy Policy explains how the DuitPilot mobile application ("the App", "we", "our") handles your information. DuitPilot was built around a simple principle: your financial data belongs to you, and as little of it as possible should ever leave your phone. This document explains exactly what we read, what we keep, and what we never touch.</p>
+<h2>1. What This Is About</h2>
+<p>Hi. This privacy policy explains how DuitPilot handles your financial information. The core idea is simple: your data belongs to you. We built DuitPilot to pull information from your banking notifications on your phone, not our servers. This policy lays out exactly what we read, what we keep, and what we never touch.</p>
 
-<h2>2. How We Use Notification Access</h2>
-<p>To track your expenses automatically, DuitPilot asks for permission to read your device notifications through Android's notification listener service. Here is precisely how that works.</p>
+<h2>2. How We Read Your Notifications</h2>
+<p>DuitPilot needs permission to read your notifications so it can automatically track your spending. Here's how it actually works.</p>
 
-<p><strong>We read notifications in memory only.</strong> When a notification arrives from a banking or wallet app we support, DuitPilot reads the text while it is still in the phone's temporary memory. From that text it pulls three things: the transaction amount, the merchant name, and a hint about which spending category it belongs to.</p>
+<p><strong>The reading happens in memory.</strong> When a notification comes in from a bank or wallet app, DuitPilot reads it while it's still sitting in your phone's temporary memory. From that notification text, we extract three pieces of information: the amount you spent, the merchant name, and a category hint.</p>
 
-<p><strong>We never store the raw text.</strong> The original notification, which can contain names, account numbers, reference codes, or personal messages, is thrown away the instant we finish reading those three pieces of information. It is never saved to your phone's storage and it is never sent anywhere.</p>
+<p><strong>The raw text is thrown away immediately.</strong> The original notification contains sensitive stuff like names, account numbers, and reference codes. We discard all of that the moment we finish extracting the three pieces we need. It never gets saved to your phone's storage and it never leaves your device.</p>
 
-<p><strong>We only look at financial apps.</strong> DuitPilot ignores everything that is not on its list of supported banking and wallet apps. Notifications from your messages, social media, email, games, and every other app are skipped entirely and never read.</p>
+<p><strong>We only read from banks and wallets.</strong> DuitPilot ignores notifications from anything that isn't a financial app. Your messages, social media, email, games, and every other app on your phone? We skip them completely and never read them at all.</p>
 
-<p>The apps DuitPilot reads from are: Maybank, MAE, CIMB, RHB, Public Bank, Touch 'n Go eWallet, GrabPay, Boost, ShopeePay, Google Wallet, and DuitNow alerts that appear inside your banking apps.</p>
+<p>The apps DuitPilot currently reads from are: Maybank, MAE, CIMB, RHB, Public Bank, Touch 'n Go eWallet, GrabPay, Boost, ShopeePay, Google Wallet, and DuitNow transfers that show up in your banking apps.</p>
 
-<h2>3. What We Store</h2>
-<p><strong>On your phone.</strong> Your expense ledger lives in a database on your own device. This includes the transaction amount, the date, the merchant name, and the category. Your category corrections, budgets, and budget progress also stay on the device.</p>
+<h2>3. Where Your Data Lives</h2>
+<p><strong>On your device.</strong> Your expense ledger is stored locally on your phone. This includes transaction amounts, dates, merchant names, and categories. Your category corrections, budgets, and spending patterns all stay right there on your device.</p>
 
-<p><strong>In the cloud.</strong> So that your records survive if you reinstall the App or change phones, DuitPilot can sync your structured expense records to a secure cloud database. This includes only the amount, date, merchant name, and category of each transaction. The account that holds this data is anonymous. We do not ask for your name, email address, or phone number to create it. Every record is locked to your own account using row level security, which means no other user and no outside party can read it. The raw notification text is never part of this sync and never reaches our servers.</p>
+<p><strong>In the cloud (optionally).</strong> If you want your data to survive a phone reinstall or upgrade, DuitPilot can sync your structured transactions to a cloud database. Only the basics get synced: amount, date, merchant, and category. No personal names, no raw notification text, nothing sensitive. Your cloud account is completely anonymous (we never ask for your name or email to create one). Every transaction you sync is locked to your account only, using a security model that makes sure no one else and no unauthorized party can see your data. Raw notification text is never, ever part of this sync.</p>
 
-<p>The App also downloads small updates to its parsing rules from the cloud, such as new merchant keywords. These updates flow one way, from us to you, and carry none of your personal information.</p>
+<p>We also download updates to our parsing rules from the cloud, like new merchant keywords. These updates come one way only, from us to your phone, and they carry zero personal information about you.</p>
 
-<h2>4. How Your Data Travels</h2>
-<p>Any data that moves between the App and our cloud service is sent over an encrypted HTTPS connection. This protects it while it is in transit between your phone and the server.</p>
+<h2>4. How Data Moves Between Devices and Cloud</h2>
+<p>When your data travels between your phone and our cloud service, it's encrypted using HTTPS. This means nobody can eavesdrop on or tamper with your information while it's in transit.</p>
 
-<h2>5. Data Sharing and Analytics</h2>
-<p>We do not sell, rent, trade, or share your personal or financial data with any third parties. Your data is used for one purpose only, which is to power the features of the App, such as showing your ledger and tracking your budgets. We do not build advertising profiles and we do not hand your transactions to outside companies.</p>
+<h2>5. We Don't Sell, Trade, or Share Your Data</h2>
+<p>Your personal and financial data is yours. We don't sell it, rent it, trade it, or share it with third parties. We use your data for one reason only: to run the app and show you your ledger and budgets. We don't build advertising profiles from your spending. We don't hand your transaction history to outside companies. We don't do analytics on your data.</p>
 
-<h2>6. Your Control and Your Right to Delete</h2>
-<p>You stay in full control of your information at all times. You can delete your transaction history from within the App, and you can wipe everything by clearing the App's data in your device settings. Removing your data on the device also removes the matching records held in the cloud account tied to it.</p>
+<h2>6. You Stay in Control</h2>
+<p>Your data is always yours to manage. You can delete your transaction history directly from the app, or you can clear all of the app's data through your phone settings. When you delete your data on the device, the matching records in the cloud also get deleted.</p>
 
-<h2>7. Children's Privacy</h2>
-<p>DuitPilot is intended for adults managing their own finances. We do not knowingly collect information from children under the age of 13.</p>
+<h2>7. Kids and DuitPilot</h2>
+<p>DuitPilot is meant for adults who are managing their own money. We don't knowingly collect information from children under 13.</p>
 
-<h2>8. Changes to This Policy</h2>
-<p>We may update this Privacy Policy from time to time as the App evolves. When we make a meaningful change, we will revise the effective date at the top of this page. We encourage you to review it occasionally.</p>
+<h2>8. If We Change This Policy</h2>
+<p>We might update this privacy policy as DuitPilot evolves. When we make a change that matters, we'll update the date at the top of this page. We encourage you to check back here once in a while.</p>
 
-<h2>9. Contact</h2>
-<p>If you have any questions about this Privacy Policy or how your information is handled, you can reach the developer, Chibuzor Pascal Ibeh, at <a href="mailto:pascalben9017@gmail.com">pascalben9017@gmail.com</a>.</p>
+<h2>9. Questions</h2>
+<p>If you have questions about this privacy policy or how your information is handled, reach out to Pascal Ibeh, the developer, at <a href="mailto:duitpilot.app@gmail.com">duitpilot.app@gmail.com</a>.</p>
 
 </body>
 </html>
